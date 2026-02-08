@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sun Feb  8 19:09:20 2026 as: /usr/lib/nmap/nmap --privileged -sU -oN udp_scan.txt 192.168.1.110
+Nmap scan report for 192.168.1.110
+Host is up (0.012s latency).
+Not shown: 993 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+53/udp   open          domain
+68/udp   open|filtered dhcpc
+69/udp   open|filtered tftp
+111/udp  open          rpcbind
+137/udp  open          netbios-ns
+138/udp  open|filtered netbios-dgm
+2049/udp open          nfs
+MAC Address: 08:00:27:A3:BC:F7 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Feb  8 19:27:31 2026 -- 1 IP address (1 host up) scanned in 1091.01 seconds
